@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com"> <!--  &gt;  mudar para -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/elements.css">
+  <link rel="stylesheet" href="assets/css/classes.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  <aside id="Volvox" class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1><a href="#intro">Volvox</a></h1>
+      <nav>
+        <ul>
+          <li><a href="#intro">Sobre nós</a></li>
+          <li><a href="#top3">Por que nós</a></li>
+          <li><a href="#grid-one">Modelos</a></li>
+          <li><a href="#gallery">Noticias</a></li>
+          <li><a href="#pricing">Preços</a></li>
+          <li><a href="#contact">fedback</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+  <!-- Parte 3 -->
+  <div id="intro" class="menu-spacing"></div>
+  <section class="intro estrada">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2 class="white">Empresa Nacional de caminhões</h2>
+        <p class="white">Para você que precisa de um altomovél para transportas suas mercadorias chegou a Volvox para facilitar seu tranporte de mercadorias de forma segura!!!.</p>
+      </div>
+      <div class="intro-img">
+        <img src="" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- parte 3 2.0 -->
+  <section id="top3" class="white-bg ">
+    <div class="main-content top3-content">
+      <h2>Por que Volvox?</h2>
+      <p>Em se tratando de serviço, a qualidade da Volvox melhora tudo, desde segurança e eficiência no consumo de combustível até segurança e produtividade do motorista. Com isso, a ajuda e as peças estão sempre à mão, o caminhão continua na estrada e a rentabilidade é o resultado final.</p>
+      <p>O Grupo Volvox é um dos maiores fabricantes mundiais de caminhões, ônibus, equipamentos de construção, motores marítimos e industriais. Com sede em Gotemburgo, Suécia, emprega mais de 102 mil pessoas e atua em 190 mercados</p>
+      <p></p>
+      <img src="assets/img/images-removebg-preview.png" alt="" id="bannerImage" height="400">
+    </div>
+  </section>
+  <!-- parte 4 -->
+  <section id="grid-one" class="grid-one gato ">
+    <div class="main-content grid-one-content">
+      <!-- div estava errada correção -->
+      <h2 class="grid-main-heading">Modelos Volvox</h2>
+      <p class="grid-description">Nosso melhores modelos Volvox</p>
+      <div class="grid">
+        <article>
+          <h3>Modelo Vintage </h3>
+          <img src="assets/img/muda123.webp" alt="" height="300" width="400"
+          onclick="openModal('assets/img/muda123.webp')">
+        </article>
+        <article>
+          <h3>Modelo escondido</h3>
+          <img src="assets/img/image.jpeg" alt="" height="300" width="400"
+          onclick="openModal('assets/img/image.jpeg')">
+        </article>
+        <article>
+          <h3>Modelo Truker </h3>
+          <img src="assets/img/images (1).jpeg" alt="" height="300" width="400"
+          onclick="openModal('assets/img/images (1).jpeg')">
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- part 4.2 -->
+  <!-- source.unsplash.com/random/360x360 -->
+  <section id="gallery" class="grid-one pata">
+    <div class="main-content grid-one-content">
+      <!-- div estava errada correção -->
+      <h2 class="grid-main-heading">Artigos mais recentes</h2>
+      <p class="grid-description">Gerenciamento de frota entre outros</p>
+      <div class="grid">
+        <div class="gallery-img">
+          <p>Conhecimento é a chave para a lucratividade. Nossos serviços de gerenciamento de frota fornecem detalhes atualizados sobre seus motoristas e veículos. Aproveite essas percepções para controlar os custos e maximizar a produtividade. </p>
+        </div>
+        <div class="gallery-img">
+          De manutenção programada a tempo de atividade máximo, um programa de manutenção Volvo mantém você na estrada. Escolha o que melhor combina com o ritmo  do seu negócio.
+        </div>
+        <div class="gallery-img">
+          Nossos pacotes financeiros flexíveis e nossas políticas de seguro personalizadas ajudam você a fazer um investimento no caminhão e protegê-lo.
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- parte da tabela -->
+  <section id="pricing" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>Tabela de preço</h2>
+      <p>Nossos preços Volvox também sempre pensando nos clientes que nos ajudaram desde o inicio.</p>
+      <p>Por isso fazemos os melhores preços você so encontra na Volvox.</p>
+      <div class="responsive-table">
+        <!-- tabela responsiva pra nos poder rolar nela -->
+        <!-- elements para configurar as tags -->
+        <table>
+          <caption>Preços em ordem crescente</caption>
+          <thead>
+            <tr>
+              <th>Vintage</th>
+              <th>Truker</th>
+              <th>Volvox escondido</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>R$512.999,99</td>
+              <td>R$852.999,99</td>
+              <td>R$8.999.999,99</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parte conteact! -->
+
+  <div id="contact" class="menu-spacing"></div>
+  <section class="intro pera">
+    <link rel="stylesheet" href="assets/css/js.css">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Deixe sei feedback</h2>
+        <p>Para sabermos que atentemos suas pespectivas ou não, você pode deixar sua opnião sobre nosso trabalho. </p>
+      </div>
+      <div class="intro-img">
+        <img src="/assets/img/images (2).jpeg" alt="log de html js e css">
+      </div>
+
+      <div class="contact-form">
+        <form action="" id="form">
+        <fieldset class="form-grid">
+          
+          <legend>Dados para o feedback</legend>
+
+          <div class="form-group">
+            <label for="first-name">Nome completo</label>
+            <input type="text" name="first-name" id="first-name" placeholder="Your first name">
+          </div>
+
+          <div class="form-group">
+            <label for="last-name">Sobrenome</label>
+            <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+          </div>
+
+          <div class="form-group">
+            <label for="email">email(Se não gosto)</label>
+            <input type="text" name="email" id="email" placeholder="Your e-mail">
+          </div>
+
+          <div class="form-group full-width">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="10" placeholder="Your message"></textarea>
+          </div>
+
+          <div class="form-group full-width">
+            <button type="submit">Confirmar feedback</button>
+          </div>
+        </fieldset>
+      </form>
+      </div>
+    </div>
+  </section>
+
+
+  <footer id="footer" class="footer white-bg">
+    <p><a href=""><span class="span"> &copy;</span> Site criated by Derik players.</a></p>
+  </footer>
+  <a class="back-to-top" href="#">➤</a>
+   <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+    <script src="assets/js/script.js"></script>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("SLmOVuEbOe32exBte");
+        })();
+        </script>
+    
+    <script>
+            document.getElementById('form').addEventListener('submit', function (event) {
+                event.preventDefault();
+                emailjs.sendForm('service_mqpr43q', 'template_fn581uo', this)
+                    .then(function () {
+                        alert('Email enviado com sucesso!');
+                    }, function (error) {
+                        alert('Erro ao enviar o email:' + JSON.stringify(error));
+                    });
+            });
+    </script>
+</body>
+
+</html>

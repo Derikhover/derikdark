@@ -1,0 +1,48 @@
+.main-bg {
+  background-image: url('../img/main-bg.svg');
+  background-size: cover;
+  background-position: center center;
+  color: var(--white-color);
+}
+.estrada{
+  background-image: url(../img/cuidados-na-estrada.png.webp);
+  background-size: cover;
+}
+.white-bg {
+  background: var(--white-color);
+}
+.gato{
+  background-image: url(../img//images\ \(2\).jpeg);
+  background-size: cover;
+}
+.main-content {
+  max-width: 120rem;
+  /* 120rem = 1200px */
+  margin: 0 auto;
+  /* padding: 3rem; */
+  padding: 10rem var(--gap);
+  /* correção */
+}
+
+.section {
+  min-height: 100vh;
+  /* parte 3/4 */
+  /* color: var(--primary-color); */
+}
+
+/* parte 3 */
+.menu-spacing {
+  height: 6.5rem;
+}
+
+body .full-width{
+  width: 100%;
+  flex: 1 1 100%;
+}
+.white{
+  color: aliceblue;
+}
+.pera{
+  background-image: url(../img/123pera.jpeg);
+  background-size: cover;
+}
